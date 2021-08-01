@@ -1,0 +1,70 @@
+body{
+    background-image: url(../Image/friends.jpg);
+    background-repeat: no-repeat;
+}
+@media screen and (max-width: 600px) {
+  body{
+    background-image: url(../Image/maxresdefault.jpg);
+    background-repeat: no-repeat;
+  }
+}
+
+
+
+
+
+  .Ant{
+      color:rgb(19, 139, 89);
+      text-align: center;
+      padding-bottom: none;
+
+  }
+
+  @media screen and (max-width: 600px) {
+   .Ant{
+     font-size: smaller;
+     text-align: center;
+     padding-top: none;
+   }
+  }
+
+  li{
+      text-align: center;
+      color: yellow;
+      display: block;
+      background-image: url(../Image/emoji-simley.jpg);
+      background-repeat: no-repeat;
+      background-position: top; 
+    }
+
+    @media screen and (max-width: 600px) {
+      li{
+        padding-top: none;
+       background-image: url(../Image/Simley.png);
+      }
+     }
+
+
+
+  .site-nav a{
+        display: block;
+        color: yellow;
+        text-decoration: none;
+        padding: 20px 20px;
+    }
+
+    @media screen and (max-width: 600px) {
+      .site-nav a{
+       font-size: smaller;
+      }
+     }
+
+    .fix {
+        clear: both;
+      }
+      
+      .group {
+        zoom: 1;
+      }
+
+

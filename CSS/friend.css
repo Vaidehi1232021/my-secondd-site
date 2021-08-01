@@ -1,0 +1,78 @@
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+
+
+
+.img{
+    float: left;
+    padding-right: 40px;
+    box-sizing: border-box;
+    padding-left: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .image-1{
+    float: none;
+    width: 30%;
+  }
+}
+  
+  .sidebar {
+    width: 34%;
+    float: right;
+    /*webbrowser takes gradient color background image*/
+    /*Fallback code for uddated browser*/
+    background-image: -webkit-gradient(linear, left top, left bottom, from(e5e9dc),
+    to(#fff));
+    background-image:-webkit-linear-gradient(top, #fff);
+    background-image:-moz-linear-gradient(top, #fff);
+    background-image:-ms-linear-gradient(top, #fff);
+    background-image:-o-linear-gradient(top, #fff);
+    background-image: linear-gradient(to bottom, #fff); 
+    padding: 40px 40px;
+    padding-right: 40px;
+    box-sizing: border-box;
+    font-size: 85%;
+  }
+
+
+@media screen and (max-width: 600px) {
+  .sidebar{
+    float: none;
+    width: 100%;
+  }
+}
+
+.column{
+    padding-top: 30px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+
+
+
+
+footer {
+  text-align: center;
+  text-decoration: none;
+  font-size: 85%;
+  color:darkgrey;
+  padding-bottom: 20px;
+  padding-top: 20px;
+}
+
+
+
+
+.fix {
+    clear: both;
+  }
+  
+  .group {
+    zoom: 1;
+  }
